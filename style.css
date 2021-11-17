@@ -1,0 +1,88 @@
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #d6e1ffab;
+  background-size: contain;
+}
+.main-container {
+  background-color: #fff;
+  width: 30vw;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0px 35vw;
+  margin-top: 75px;
+}
+.main-content-container {
+  padding: 10px 80px 20px 50px;
+  text-align: center;
+}
+.image-container {
+  width: 100%;
+}
+.content-text {
+  color: #837f7f;
+}
+.annual-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 10px 15px;
+  background-color: #f4f4f4bd;
+  border-radius: 10px;
+}
+.annual-inner-container {
+  display: flex;
+  align-items: center;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+}
+.annual-main-container .img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.annual-main-container h2 {
+  font-weight: bold;
+}
+.annual-main-container h5 {
+  margin: 0px;
+  font-weight: bold;
+}
+.annual-inner-container p {
+  margin: 0px;
+  color: rgb(128, 128, 128);
+}
+.annual-main-container a {
+  color: #1e1fcd;
+  font-weight: bold;
+}
+
+#button-1 {
+  color: #fff;
+  padding: 20px 10px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: blue;
+  border-radius: 10px;
+  font-weight: bold;
+  border: hidden;
+  box-shadow: 0px 10px 10px #1e1ecd4f;
+  cursor: pointer;
+}
+#button-2 {
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+#button-1:hover,
+#button-2:hover {
+  color: black;
+}
